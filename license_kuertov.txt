@@ -1,16 +1,13 @@
-private const string URL = "https://raw.githubusercontent.com/4abit/gomora/refs/heads/main/license_kuertov.txt";
-
-private static readonly byte[] MASTER = new byte[]
 {
-    // your master key here
-};
+  "username": "kuertov",
+  "licenseKey": "saMtzukLan40h9LGzqWfJbZO0JXvTxAZtw18i1lis0nod1pnZerVtwipnCaugUqsXIUSiymPdJA4cDfgXVdE7EeADa6rxbeLDSiLZ6xZ7DK4m9wpyiW0j/f7Al4Ily0OiI27DgwACHPVGnLvA9FeX5FbDCWsG1ysbuKDQ8m48RdN+O7fwBkURSK9e22oY4QX",
+  "hwid": "779D4B36004C5C52DF2ED2CD7BCADFB895CCED170C39957E9A044C08F516B8C7",
+  "expiry": "12.12.4040",
+  "enabled": true
+}
 
-private static readonly byte[] XOR = new byte[]
-{
-    // your xor key here
-};
+private const string URL = "https://raw.githubusercontent.com/4abit/gomora/main/license_kuertov.txt";
 
-private static readonly byte[] CHACHA = new byte[]
-{
-    // your chacha key here
-};
+private static readonly byte[] MASTER = new byte[] { ... };
+private static readonly byte[] XOR = new byte[] { ... };
+private static readonly byte[] CHACHA = new byte[] { ... };
