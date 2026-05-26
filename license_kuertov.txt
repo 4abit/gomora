@@ -1,4 +1,4 @@
-private const string URL = "https://raw.githubusercontent.com/4abit/gomora/main/license.json";
+private const string URL = "https://raw.githubusercontent.com/4abit/gomora/refs/heads/main/license_kuertov.txt";
 
 private static readonly byte[] MASTER = new byte[]
 {
