@@ -1,7 +1,7 @@
 public class LicenseManager {
 
     public static final String URL =
-        "https://raw.githubusercontent.com/4abit/123gomotar/main/license_kuertov.txt";
+        "https://raw.githubusercontent.com/4abit/gomora/refs/heads/main/license_kuertov.txt";
 
     public static final byte[] MASTER = new byte[] {
         0x57, 0x65, (byte)0x84, (byte)0xba
