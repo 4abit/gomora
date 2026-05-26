@@ -1,17 +1,16 @@
-public class LicenseManager {
+private const string URL = "https://raw.githubusercontent.com/4abit/gomora/main/license.json";
 
-    public static final String URL =
-        "https://raw.githubusercontent.com/4abit/gomora/refs/heads/main/license_kuertov.txt";
+private static readonly byte[] MASTER = new byte[]
+{
+    // your master key here
+};
 
-    public static final byte[] MASTER = new byte[] {
-        0x57, 0x65, (byte)0x84, (byte)0xba
-    };
+private static readonly byte[] XOR = new byte[]
+{
+    // your xor key here
+};
 
-    public static final byte[] XOR = new byte[] {
-        (byte)0x8b, (byte)0xb8
-    };
-
-    public static final byte[] CHACHA = new byte[] {
-        0x23, (byte)0xfd
-    };
-}
+private static readonly byte[] CHACHA = new byte[]
+{
+    // your chacha key here
+};
